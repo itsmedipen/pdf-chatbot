@@ -46,7 +46,7 @@ lc-*.json
 
 # Streamlit app state
 .streamlit/
-
+.streamlit/secrets.toml
 # Misc
 *.sqlite
 *.pdf  # Optional: if you're loading local PDFs and don't want to push them
