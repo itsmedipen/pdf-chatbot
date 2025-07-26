@@ -1,0 +1,53 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and local output
+*.log
+*.out
+*.tmp
+*.bak
+
+# FAISS index files (if storing locally)
+*.faiss
+*.index
+*.npy
+*.npz
+
+# LangChain cache or state (optional)
+langchain.db
+lc-*.json
+
+# VSCode settings
+.vscode/
+
+# Hugging Face cache
+~/.cache/huggingface/
+.huggingface/
+
+# Streamlit app state
+.streamlit/
+
+# Misc
+*.sqlite
+*.pdf  # Optional: if you're loading local PDFs and don't want to push them
+*.db
