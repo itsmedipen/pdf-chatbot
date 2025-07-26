@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#61dafb"              # Bright cyan accent (like React's blue)
+backgroundColor = "#121212"           # Very dark background
+secondaryBackgroundColor = "#1e1e1e"  # Slightly lighter dark for containers
+textColor = "#e0e0e0"                 # Soft light gray text
+font = "sans serif"
