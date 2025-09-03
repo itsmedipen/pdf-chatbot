@@ -53,7 +53,7 @@ def main():
                         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
                         vectorstore = FAISS.from_texts(docs, embeddings)
 
-                        llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-8b-8192")
+                        llm = ChatGroq(groq_api_key=groq_api_key, model_name="openai/gpt-oss-120b")
                         st.session_state.qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=vectorstore.as_retriever())
                         
                     st.success('Completed')
